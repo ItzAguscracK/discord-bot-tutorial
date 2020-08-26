@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot-tutorial",
+  "version": "1.0.0",
+  "description": "tutorial basico de desarrollo de bots de discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "youtube",
+    "rimuru",
+    "senpai",
+    "discord.js",
+    "tutorial"
+  ],
+  "author": "「六┇RimuruSenpai」#8720",
+  "license": "ISC"
+}

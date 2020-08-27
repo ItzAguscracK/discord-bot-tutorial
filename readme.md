@@ -83,7 +83,7 @@ A continuación, se visualizará el `Token Secreto` de su BOT.
 ![token1](img/token1.png)
 
 ![separador3](img/separador.png)
-## Agregar su BOT a un servidor
+# Agregar su BOT a un servidor
 Bien, incluso si no ha escrito ni una sola línea de código para su bot, ya puede invitarlo a un servidor.
 
 Para invitar a su bot, necesita tener los permisos de `ADMINISTRADOR` en el servidor a donde agregará el bot o ser el creador del mismo. De esa forma podrá agregar o invitar su bot a un servidor.

@@ -159,3 +159,7 @@ Empezamos a codificar los eventos y funciones para desarrollar su BOT, con una e
 - Abrir la carpeta de su BOT creado, con Visual Studio Code o con el editor que tenga instalado.
 - Crear un nuevo archivo y darle un nombre con la extencion .js (archivo JavaScript).
 - Ejemplos: proyectobot.js, bot.js, app.js, etc. (Para esta guía utilizaré index.js)
+
+![indexjs](img/indexjs.png)
+
+ > NOTA: Para crear un archivo haga clic derecho en donde estan los demas y pulse donde dice `new file`.

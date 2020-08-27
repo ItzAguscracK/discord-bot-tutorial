@@ -100,3 +100,62 @@ Pegar el ID del bot en `CLIENT ID` de la siguiente forma.
 
 
 Abrir el link de invitación generado, se muestra una ventana que le permite elegir el servidor donde podrá agregar su bot, simplemente seleccione el servidor y haga clic en `Autorizar`.
+
+![separador4](img/separador.png)
+![instalardn](img/instalardn.png)
+
+Para usar discord.js y empezar a programar necesitará un par de cosas instaladas. Por lo menos:
+
+- Mínimo: `node.js` versión 10 o superior.
+- Tener un editor de código real. Si no tienen instalado un editor de código ir a la Instalación editor de código
+
+# Instalacion de Nodejs
+Node es un entorno de ejecución para JavaScript, usa un modelo de operaciones E/S sin bloqueo y orientado a eventos, que lo hace liviano y eficiente.
+
+Para instalar Node, vamos a la siguiente página web [Nodejs.org](https://nodejs.org/es/)
+
+![nodejs](img/nodejs.png)
+Descargar la versión recomendada e instalar en su PC. (Reinicié su PC si es necesario)
+
+# Preparando el entorno de desarrollo para el BOT
+
+Una vez que tenga el software requerido, el siguiente paso es preparar un espacio para empezar a programar.
+
+- Crear una carpeta en el escritorio o en una unidad de disco duro o partición.
+- Darle un nombre a la carpeta (Ej. BOT, BotDiscord, discord-bot-tutorial, etc.).
+- Una vez que haya creado una carpeta, abrir la consola (en este caso la consola de VSC).
+
+![vscterminal](img/vscterminal.png)
+
+# Instalacion de discord.js
+
+Una vez dentro de la consola, vamos a instalar discord.js.
+
+Pero primero vamos a inicializar esta carpeta con node y npm (NPM = Node Package Manager - Administrador de paquetes/librerias para node), esto asegurará que cualquier otro módulo instalado se instale dentro de la carpeta creada.
+
+Para iniciar escribimos dentro de la consola, npm init -y , luego pulse enter dentro de la consola.
+
+![consolavsc](img/consolavsc.png)
+
+Se creara un nuevo archivo llamado package.json, esto significa que has iniciado correctamente. Si desea saber más información sobre package.json, haga [clic aquí](https://docs.npmjs.com/files/package.json).
+
+### Ahora instalamos Discord.js a través de npm:
+
+Escribir `npm install discord.js` en la consola y pulse enter.
+
+![discordjsvsc](img/discordjsvsc.png)
+
+La instalación es muy rápida y mostrará el proceso de la instalacián en la pantalla de la consola.
+
+Una vez completada la instalación de Discord.js, nos fijamos en la carpeta y se dará cuenta de que hay una nueva carpeta creada llamada node_modules. Esto contiene todos los paquetes instalados para el funcionamiento de Discord.js.
+
+Significa que Discord.js se ha instalado correctamente. ¡Bien hecho! Ahora vayamos a desarrollar su primer BOT.
+
+![separador5](img/separador.png)
+![devbot](img/devbot.png)
+
+Empezamos a codificar los eventos y funciones para desarrollar su BOT, con una estructura basica de inicio.
+
+- Abrir la carpeta de su BOT creado, con Visual Studio Code o con el editor que tenga instalado.
+- Crear un nuevo archivo y darle un nombre con la extencion .js (archivo JavaScript).
+- Ejemplos: proyectobot.js, bot.js, app.js, etc. (Para esta guía utilizaré index.js)

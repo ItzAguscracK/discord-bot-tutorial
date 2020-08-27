@@ -10,7 +10,7 @@ const Client = new Discord.Client();
 //Luego agregamos este codigo
 Client.on('ready', () => {
 
-    console.log(`BOT Iniciado`);
+    console.log(`BOT Iniciado`);//Mensaje en consola, bot iniciado
  });
  
  //En la linea 11 la varible Client activa el evento llamado ready, ready es el evento de inicio cuando se activa un BOT en discord.js, 

@@ -15,5 +15,8 @@
     "tutorial"
   ],
   "author": "「六┇RimuruSenpai」#8720",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
 }

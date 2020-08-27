@@ -1,4 +1,4 @@
-![introduccion](img/introduccion.png)
+
 
 Discord.js es una biblioteca que facilita la interacción con la API de Discord. En comparación con la mayoría de las otras bibliotecas de Discord, utiliza un enfoque más orientado a objetos para que el código de su bot sea más limpio y más fácil de entender.
 

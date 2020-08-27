@@ -1,4 +1,4 @@
-# INTRODUCCION
+![introduccion](img/introduccion.png)
 
 Discord.js es una biblioteca que facilita la interacción con la API de Discord. En comparación con la mayoría de las otras bibliotecas de Discord, utiliza un enfoque más orientado a objetos para que el código de su bot sea más limpio y más fácil de entender.
 
@@ -12,6 +12,7 @@ Si tienes alguna dificultad puedes entrar a nuestro servidor de Discord.
 # No hagas C&P
 Se recomienda escribir el código a mano mientras sigues esta guía (sin copiar y pegar). Esto te ayudará a desarrollar una memoria muscular y un entendimiento de lo que estás agregando mucho más sólido.
 
+![separador](img/separador.png)
 ![Instalacion](img/Instalacion.png)
 
 # Editor de codigo
@@ -35,8 +36,8 @@ Siga estos pasos:
 - [Sublime Text 3](https://www.sublimetext.com/3 "Sublime Text 3")
 - [Atom](https://atom.io "Atom")
 
-
-# Creación de su  BOT de Discord
+![separador1](img/separador.png)
+![crearbot](img/crearbot.png)
 
 El primer paso para crear un primer BOT es crear una aplicación Discord. El bot utilizará la API de Discord, que requiere la creación de una cuenta Discord para propósitos de autenticación. No te preocupes, es súper simple.
 
@@ -50,6 +51,7 @@ Haga clic en `New Application` Esto lo llevará a la siguiente página, donde de
 
 Para guardar todos datos ingresados, clic en en el botón `Save Changes` en la parte de abajo.
 
+![separador2](img/separador.png)
 # Crear usuario BOT
 Después de crear la aplicación Discord, ir a la opción `Bot`, y hacer clic en `Add Bot`.
 
@@ -80,8 +82,8 @@ A continuación, se visualizará el `Token Secreto` de su BOT.
 
 ![token1](img/token1.png)
 
-
-### Agregar su BOT a un servidor
+![separador3](img/separador.png)
+## Agregar su BOT a un servidor
 Bien, incluso si no ha escrito ni una sola línea de código para su bot, ya puede invitarlo a un servidor.
 
 Para invitar a su bot, necesita tener los permisos de `ADMINISTRADOR` en el servidor a donde agregará el bot o ser el creador del mismo. De esa forma podrá agregar o invitar su bot a un servidor.

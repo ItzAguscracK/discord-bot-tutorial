@@ -114,7 +114,7 @@ Node es un entorno de ejecución para JavaScript, usa un modelo de operaciones E
 
 Para instalar Node, vamos a la siguiente página web [Nodejs.org](https://nodejs.org/es/)
 
-![nodejs](img/nodejs.png)
+![node](img/node.png)
 Descargar la versión recomendada e instalar en su PC. (Reinicié su PC si es necesario)
 
 # Preparando el entorno de desarrollo para el BOT

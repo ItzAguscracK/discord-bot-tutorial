@@ -252,7 +252,7 @@ Si en su consola aparecio un mensaje `BOT iniciado, todo esta OK!` generado por 
 
 # ¿Quieres mantener tu BOT 24/7?
 
-Haga clic aqui para ver la siguiente guia **HOST gratuito**
+Haga clic aqui para ver la siguiente guia **HOST gratuito** (guia - No Disponible)
 
 **Si tienes algun problema no dudes en ingresar a nuestro servidor de Soporte**
 

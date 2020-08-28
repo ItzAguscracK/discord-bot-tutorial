@@ -135,7 +135,7 @@ Pero primero vamos a inicializar esta carpeta con node y npm (NPM = Node Package
 
 Para iniciar escribimos dentro de la consola, npm init -y , luego pulse enter dentro de la consola.
 
-![consolavsc](img/consolavsc.png)
+![laconsola](img/laconsola.png)
 
 Se creara un nuevo archivo llamado package.json, esto significa que has iniciado correctamente. Si desea saber más información sobre package.json, haga [clic aquí](https://docs.npmjs.com/files/package.json).
 
@@ -143,7 +143,7 @@ Se creara un nuevo archivo llamado package.json, esto significa que has iniciado
 
 Escribir `npm install discord.js` en la consola y pulse enter.
 
-![discordjsvsc](img/discordjsvsc.png)
+![install](img/install.png)
 
 La instalación es muy rápida y mostrará el proceso de la instalacián en la pantalla de la consola.
 
@@ -255,4 +255,5 @@ Si en su consola aparecio un mensaje `BOT iniciado, todo esta OK!` generado por 
 Haga clic aqui para ver la siguiente guia **HOST gratuito**
 
 **Si tienes algun problema no dudes en ingresar a nuestro servidor de Soporte**
+
 [• Rιɱυɾυ • 『𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆』](https://discord.gg/zpxgsEA)

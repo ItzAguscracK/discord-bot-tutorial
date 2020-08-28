@@ -163,3 +163,96 @@ Empezamos a codificar los eventos y funciones para desarrollar su BOT, con una e
 ![indexjs](img/indexjs.png)
 
  > NOTA: Para crear un archivo haga clic derecho en donde estan los demas y pulse donde dice `new file`.
+
+Luego de crear el archivo para su BOT, dentro del archivo agregamos las siguientes lineas de codigo:
+
+**Descripción del codigo agregado**
+```js
+const Discord = require("discord.js");
+const client = new Discord.Client();
+//const crea una variable llamada Discord para referenciar el modulo npm discord.js instalado con anterioridad.
+//const crea la varible client para instanciar una nueva clase Client() de la variable Discord referenciado, client representa a la clase Client() que es el eje principal para interactuar con la API de Discord, y el punto de partida para cualquier BOT en discordjs.
+```
+Despues, agregamos las siguientes lineas de codigo debajo de las variables creadas anteriormente.
+**Descripción del codigo agregado**
+```js
+client.on('ready', () => {
+   console.log(`BOT iniciado, todo esta OK!`);
+});
+//En la primera linea la varible client activa el evento llamado ready, ready es el evento de inicio cuando se activa un BOT en discord.js, se puede ingresar un mensaje o funcion que se ejecutara cuando el BOT se aya activado correctamente.
+
+client.on('message', (message) => {
+  if(message.content.startsWith('ping')) {
+    message.channel.send(`pong 🏓!!`);
+  }
+});
+//Utilizamos tambien el evento message, message es el manejador de los mensajes y argumentos de un servidor, detro del mismo podemos crear comandos(funciones/tareas) para su BOT. Un ejemplo basico es el comando ping. dentro de una condicion if() basica.
+
+client.login('TokenSecreto');
+//Y por ultimo y no menos importante la funcion login, que se encarga de iniciar seccion de su BOT (loggear) y autenticarlo con la API de Discord.
+```
+**Este seria el resultado final**
+```js
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+client.on('ready', () => {
+   console.log(`BOT iniciado, todo esta OK!`);
+});
+
+client.on('message', (message) => {
+  if(message.content.startsWith('ping')) {
+    message.channel.send(`pong 🏓!!`);
+  }
+
+});
+
+client.login('TokenSecreto');
+```
+
+Bien, luego de agregar las lineas de codigo, ahora reemplace en la linea del metodo client.login("TokenSecreto") por el Token de su BOT creado anteriormente.
+
+```js
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+client.on('ready', () => {
+   console.log(`BOT iniciado, todo esta OK!`);
+});
+
+client.on('message', (message) => {
+  if(message.content.startsWith('ping')) {
+    message.channel.send(`pong 🏓!!`);
+  }
+
+});
+
+client.login('NzQ3OTY4MjUyNjI5NjE0Njc0.X0WluA.kzU632YsWGzYVgNEtE5NgraFqFI');
+```
+
+Por ultimo guardar todo su codigo agregado, utilizando la tecla `cntrl + s`
+
+## Activacion del BOT
+
+La manera de activar un BOT mendiante la consola de windows, es ingresando a la ruta de la carpeta de su BOT. y utilizar el comando de nodejs llamada `node`, mas el nombre del archivo de su bot.
+
+![botinit](img/botinit.png)
+
+![initbot](img/initbot.png)
+
+Si en su consola aparecio un mensaje `BOT iniciado, todo esta OK!` generado por el evento ready, su BOT estara conectado en su servidor invitado.
+
+**!Perfecto¡**, su bot esta listo para responder a todas sus órdenes, en el ejemplo de la estructura basica su BOT respondera con un mensaje `pong 🏓!!`, a cualquier mensaje que empiece exactamente con `ping` del evento message, vamos a comprobarlo.
+
+![pp](img/pp.png)
+
+¡Éxito tienes tu BOT ejecutándose!, ahora podras crear muchas funciones y comandos para su BOT.
+
+> **Recuerda** que si cieras el VSC Su proyecto/BOT se apagara
+
+# ¿Quieres mantener tu BOT 24/7?
+
+Haga clic aqui para ver la siguiente guia **HOST gratuito**
+
+**Si tienes algun problema no dudes en ingresar a nuestro servidor de Soporte**
+[• Rιɱυɾυ • 『𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆』](https://discord.gg/zpxgsEA)

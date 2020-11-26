@@ -256,4 +256,4 @@ Haga clic aqui para ver la siguiente guia **HOST gratuito** (guia - No Disponibl
 
 **Si tienes algun problema no dudes en ingresar a nuestro servidor de Soporte**
 
-[• Rιɱυɾυ • 『𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆』](https://discord.gg/zpxgsEA)
+[• Rιɱυɾυ • 『𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆』](https://rimuru.ga/discord)
